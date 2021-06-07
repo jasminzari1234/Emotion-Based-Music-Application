@@ -1,0 +1,15 @@
+{
+	"auth": {
+		"emotifydbf20a8c": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"storage": {
+		"s3bucketmn": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

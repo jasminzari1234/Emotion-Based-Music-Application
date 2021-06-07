@@ -1,0 +1,53 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-emotify-dev-13513-authRole",
+			"UnauthRoleArn": "arn:aws:iam::718607306072:role/amplify-emotify-dev-13513-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::718607306072:role/amplify-emotify-dev-13513-authRole",
+			"Region": "ap-south-1",
+			"DeploymentBucketName": "amplify-emotify-dev-13513-deployment",
+			"UnauthRoleName": "amplify-emotify-dev-13513-unauthRole",
+			"StackName": "amplify-emotify-dev-13513",
+			"StackId": "arn:aws:cloudformation:ap-south-1:718607306072:stack/amplify-emotify-dev-13513/5efd3000-b814-11eb-85a6-06fcec3e7fc2",
+			"AmplifyAppId": "dc9n5ysb8oxn1"
+		}
+	},
+	"auth": {
+		"emotifydbf20a8c": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-emotify-dev-13513-deployment/amplify-cfn-templates/auth/emotifydbf20a8c-cloudformation-template.yml",
+				"logicalId": "authemotifydbf20a8c"
+			},
+			"lastPushTimeStamp": "2021-05-19T09:07:28.329Z",
+			"output": {
+				"AppClientSecret": "niq5f40rmopef5f478129hlei3gq3nlrp5jlg8emrm2qmcumnl",
+				"UserPoolId": "ap-south-1_uAJ0al15w",
+				"AppClientIDWeb": "2lfff5du4u4jtoe8nr29esi891",
+				"AppClientID": "4kqnr56goq827vf4qlf825ckdk",
+				"IdentityPoolId": "ap-south-1:77261764-f790-43ff-9f6f-e63f560312f8",
+				"IdentityPoolName": "emotifydbf20a8c_identitypool_dbf20a8c__dev",
+				"UserPoolName": "emotifydbf20a8c_userpool_dbf20a8c"
+			},
+			"lastPushDirHash": "SwRQWRPp+RerUrsLBnvFOj9X1bU="
+		}
+	},
+	"storage": {
+		"s3bucketmn": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-emotify-dev-13513-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+				"logicalId": "storages3bucketmn"
+			},
+			"lastPushTimeStamp": "2021-05-19T09:07:28.329Z",
+			"output": {
+				"BucketName": "emotifybucket13513-dev",
+				"Region": "ap-south-1"
+			},
+			"lastPushDirHash": "monY2jp5ZwMyj3O53rDISiROtX4="
+		}
+	}
+}

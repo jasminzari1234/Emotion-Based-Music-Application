@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "798844384590",
+    "project_id": "emotify-13083",
+    "storage_bucket": "emotify-13083.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798844384590:android:6841f9bdc33cb05cc21a1f",
+        "android_client_info": {
+          "package_name": "com.example.emotify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798844384590-vqha1hk6ue277o4jockigj7juocvmamg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy6TRuU1fEDxUKHk2pO8lNvmYYxJrQ5nU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798844384590-vqha1hk6ue277o4jockigj7juocvmamg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

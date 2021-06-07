@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-emotify-dev-13513-authRole",
+            "UnauthRoleArn": "arn:aws:iam::718607306072:role/amplify-emotify-dev-13513-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::718607306072:role/amplify-emotify-dev-13513-authRole",
+            "Region": "ap-south-1",
+            "DeploymentBucketName": "amplify-emotify-dev-13513-deployment",
+            "UnauthRoleName": "amplify-emotify-dev-13513-unauthRole",
+            "StackName": "amplify-emotify-dev-13513",
+            "StackId": "arn:aws:cloudformation:ap-south-1:718607306072:stack/amplify-emotify-dev-13513/5efd3000-b814-11eb-85a6-06fcec3e7fc2",
+            "AmplifyAppId": "dc9n5ysb8oxn1"
+        },
+        "categories": {
+            "auth": {
+                "emotifydbf20a8c": {}
+            }
+        }
+    }
+}
